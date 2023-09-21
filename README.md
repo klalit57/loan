@@ -8,8 +8,17 @@ Step 2:
 Run the Application as Java Application
 
 Step 3:
-check all endpoints or uri in Postman
+check in memory database with url
 
+http://localhost:8080/h2-console
+Driver class - org.h2.Driver
+jdbc urk - jdbc:h2:mem:testdb
+user - lalit
+password - password
+connect
+
+Step 4:
+check all endpoints or uri in Postman
 uri - 1 -
 http://localhost:8080/loans,
 GET
@@ -55,5 +64,5 @@ uri - 8
 http://localhost:8080/loans/interest,
 GET
 
-Step - 4
+Step - 5
 check all Junit test cases for LoanServiceTest
